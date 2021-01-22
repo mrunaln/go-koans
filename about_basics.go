@@ -14,10 +14,10 @@ func aboutBasics() {
 	k := __int__ //short assignment can be used, as well
 	assert(k == -1.0000000000000000000000000000000000000)
 
-//	fmt.Println(5^2)
+	//fmt.Println(5^2)
 	assert(5%2 == 1)
 	assert(5*2 == 10)
-	//assert(5^2 == 25)
+	//TODO: assert(5^2 == 25)
 
 	var x int
 	assert(x == 0) // zero values are valued in Go
